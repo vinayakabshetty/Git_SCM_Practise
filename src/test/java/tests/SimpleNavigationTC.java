@@ -12,6 +12,7 @@ public class SimpleNavigationTC {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://snapdeal.com");
+		driver.get("https://flipkart.com");
 		Thread.sleep(6000);
 		driver.quit();
 	}
