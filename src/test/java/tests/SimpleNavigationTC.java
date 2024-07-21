@@ -14,6 +14,7 @@ public class SimpleNavigationTC {
 		driver.get("https://snapdeal.com");
 		driver.get("https://flipkart.com");
 		driver.get("https://Vinayaka.com");
+		driver.get("https://Pooja.com");
 		Thread.sleep(6000);
 		driver.quit();
 	}
