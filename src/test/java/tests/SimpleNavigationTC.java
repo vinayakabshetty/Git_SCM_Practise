@@ -11,7 +11,7 @@ public class SimpleNavigationTC {
 	public void navToGoogle() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://google.com");
+		driver.get("https://amazon.in");
 		Thread.sleep(6000);
 		driver.quit();
 	}
